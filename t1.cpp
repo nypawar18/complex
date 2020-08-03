@@ -11,13 +11,14 @@ using namespace std;
 
 int main(void)
 {
-	Complex c,d,e;
+	Complex c,d,e,f;
 	c.setdata(5,6);
 	c.display();
 	d.setdata(8,3);
 	d.display();
 	e=retdata(c,d);
 	e.display();
+
 	return 0;
 }
 
